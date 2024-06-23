@@ -7,7 +7,6 @@ import * as lightsail from 'aws-cdk-lib/aws-lightsail';
 export class WoocommerceAwsExampleStack extends cdk.Stack {
   public instance: lightsail.CfnInstance;
   public staticIp: lightsail.CfnStaticIp;
-  public distribution: lightsail.CfnDistribution;
 
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
