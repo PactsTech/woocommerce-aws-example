@@ -26,11 +26,11 @@ cdk deploy --all --require-approval never
 4. Under `Woocommerce` > `Settings` > `Payments`
 5. Enable Pacts, click manage
 
-[!payments](./docs/payments.png)
+![payments](./docs/payments.png)
 
 6. Select currency and supply contract addresses
 
-[!pacts](./docs/pacts.png)
+![pacts](./docs/pacts.png)
 
 7. Save changes
 
